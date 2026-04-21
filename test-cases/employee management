@@ -1,0 +1,5 @@
+| TC_ID | Module | Scenario                    | Steps                                          | Data       | Expected Result             |Status
+| ----- | ------ | --------------------------- | ---------------------------------------------- | ---------- | --------------------------- |
+| TC_06 | PIM    | Add Employee                | Go to PIM → Add Employee → Fill details → Save | Name: John | Employee added successfully |Pass
+| TC_07 | PIM    | Mandatory Fields Validation | Leave required fields blank                    | -          | Error message displayed     |Pass
+| TC_08 | PIM    | Employee ID Auto Generation | Add employee                                   | -          | ID should auto generate     |Pass
