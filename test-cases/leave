@@ -1,0 +1,5 @@
+| TC_ID | Module | Scenario            | Steps                      | Data       | Expected Result            |Status |
+| ----- | ------ | ------------------- | -------------------------- | ---------- | -------------------------- |-------|
+| TC_09 | Leave  | Apply Leave         | Go to Leave → Apply        | Date range | Leave applied successfully |Pass   |
+| TC_10 | Leave  | Invalid Date        | Select past date           | -          | Validation message         |Pass   |
+| TC_11 | Leave  | Leave Balance Check | Apply leave beyond balance | -          | Error message              |Pass   |
