@@ -1,0 +1,7 @@
+| TC_ID | Module | Scenario         | Steps                                   | Data             | Expected Result                | Status |
+| ----- | ------ | ---------------- | --------------------------------------- | ---------------- | ------------------------------ | ------ |
+| TC_01 | Login  | Valid Login      | Enter username & password → Click Login | Admin / admin123 | User should login successfully | Pass   |
+| TC_02 | Login  | Invalid Password | Enter valid username + wrong password   | Admin / wrong123 | Error message displayed        | Pass   |
+| TC_03 | Login  | Invalid Username | Enter wrong username + valid password   | user / admin123  | Error message displayed        | Pass   |
+| TC_04 | Login  | Empty Fields     | Click login without entering data       | -                | Required field message         | Pass   |
+| TC_05 | Login  | Password Masking | Enter password                          | admin123         | Password should be hidden      | Pass   |
